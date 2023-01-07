@@ -1,394 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/c6b75d90fa.js" crossorigin="anonymous"></script>
-        <title>Booki.com! votre hébergement pour des vacances de rêve</title>
-    </head>
-    
-    <body >
-    
-<!--                                        HEADER                 -->
-        <header class="flex" id="nav-header">
-            
-                <img id="header-logo" src="images/logo/Booki.png" alt="logo Booki.com">
-                <nav  class="flex">
-                    <ul class="flex" id="navbar">
-                        <li class="navbar-part" ><a class=navbar-part href="#hosting">Hébergements</a></li>
-                        <li class="navbar-part"><a class="navbar-part" href="#activities">Activités</a></li>
-                    </ul>  
-                </nav>
-            
-            
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/c6b75d90fa.js" crossorigin="anonymous"></script>
+
+    <title>Mon Petit Graphisme</title>
+</head>
+<body>
+    <header class="flex  ">
+        <img id="flex logo-header" src="Images/logo_long.png" alt="logo Mon-Petit-Graphisme">
+        <div class="flex " id="header">
         
+            <nav class="flex nav-header">
+                <ul class="flex nav-header">
+                    <li class=" flex nav-header">Accueil</li>
+                    <li class=" flex nav-header">Contact</li>
+                </ul>
+            </nav>     
+        </div>
+    </header>
 
-        <main>
-<!-- Section Filtres et recherches -->
-            <section id="first-section" class="flex">     
-                <h1 class="page-title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p class="page-title">En plein centre-ville ou en pleine nature</p>
-<!-- Barre de recherche-->
-                <form id="search-bar" class="flex">                             
-                    <div id="search-icon" class="flex">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <input type="search" placeholder="Marseille, France " id="search-input">
-                    <button  id="search-button-desktop">Rechercher</button>
-                    <button  id="search-button-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
-
-                </form>
-<!-- Boutons de filtres-->
-                <div class="flex filter2" >   
-                    <h3>Filtres</h3>                                
-                    <ul class="flex " id="filters">
-                        
-                        <li class="filter flex">
-                            <i class=" fa-solid fa-money-bill-wave flex"></i>
-                            <p>Economique</p>
-                        </li>
-                        <li class="filter flex">
-                            <i class=" fa-solid fa-person-dress flex"></i>
-                            <p>Familial</p>
-                        </li>
-                        <li class="filter flex">
-                            <i class=" fa-solid fa-heart flex"></i>
-                            <p>Romantique</p>
-                        </li>
-                        <li class="filter flex">
-                            <i class=" fa-solid fa-dog flex"></i>
-                            <p>Animaux autorisés</p>
-                        </li>
-                    </ul>    
-                </div>
-                
-<!-- Phrase d'information-->
-                <div id="infos-filter" class=" flex">
-                    <div class="infos flex">
-                        <i class="fa-solid fa-info"></i>
-                    </div>               
-                    <p>Plus de 500 logements disponibles dans cette ville</p>
-                </div>
-            </section>
-
-<!--                                                               Hebergements et populaires     -->
-               
-<!-- Encart hébergements-->
-
-            <section id="second-section" class="flex">
-                
-                <div id="hosting" class="flex" >
-                    <div class="flex title-section">
-                        <h2 class="title" >Hébergements à Marseille</h2>
-                    </div>
-                    
-                    <div class="flex card-hosting">
-                        <article class="card-hosting">
-                            <a href="#">
-                                <img src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="une chambre avec une fenetre et un lit superposé" class="card-hosting">
-                                <div class="flex content-card"> 
-                                    <div class="rich">
-                                        <h3 class=card-title>Auberge la Canebière</h3>
-                                        <p>Nuit à partir de 25€</p>
-                                    </div>
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="card-hosting">
-                            <a href="#"><img src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="une chambre avec une fenetre et un lit" class="card-hosting">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class=card-title>Hôtel du port</h3>              
-                                        <p>Nuit à partir de 52€</p>
-                                </div>
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="card-hosting">
-                            <a href="#">
-                                <img src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="une chambre avec un miroir et un lit" class="card-hosting">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class=card-title>Hotel les mouettes</h3>
-                                        <p>Nuit à partir de 76€</p></div>
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="card-hosting">
-                            <a href="#">
-                                <img src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="une chambre avec un tableau bleu" class="card-hosting">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class="card-title">Hôtel de la mer</h3>
-                                        <p>Nuit à partir de 46€</p>
-                                    </div>
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="card-hosting">
-                            <a href="#">
-                                <img src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="des lits superposés en bois" class="card-hosting">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class=card-title>Auberge le panier</h3>
-                                        <p>Nuit à partir de 23€</p>
-                                    </div> 
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="card-hosting">
-                            <a href="#">
-                                <img src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="une chambre avec une fenetre et un lit" class="card-hosting">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class=card-title>Hotel chez Amina</h3>
-                                        <p>Nuit à partir de 96€</p>
-                                    </div>
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                    </div>
-                        <p id="plus">Afficher plus</p>
-                    
-                </div>
-<!--                            PANNEAU "LES PLUS POPULAIRES"    -->
-                <aside id="popularity" class="flex">
-                    <div class="flex title-section">
-                        <h2 class="title">Les plus populaires </h2>
-                        <i class="fa-solid fa-chart-line"></i>
-                    </div>
-                    
-                    <div class="flex card-popularity">
-                        <article class="flex card-popularity ">
-                            <a href="#" class="flex">
-                                <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="une chambre verte avec un miroir et un lit" class="card-popularity">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class=card-title>Hotel le soleil du matin</h3>
-                                        <p>Nuit à partir de 128€</p>
-                                    </div>  
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="flex card-popularity ">
-                            <a href="#" class="flex">
-                                <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="une chambre avec une mezzanine et un lit" class="card-popularity">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class=card-title>Hotel le soleil du matin</h3>
-                                        <p>Nuit à partir de 128€</p>
-                                    </div>
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="flex card-popularity ">
-                            <a href="#" class="flex">
-                                <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="une chambre avec une fenetre et un lit" class="card-popularity">
-                                <div class="flex content-card">
-                                    <div class="rich">
-                                        <h3 class=card-title>Hotel le soleil du matin</h3>
-                                        <p>Nuit à partir de 128€</p>
-                                    </div>
-                                    <div class="flex stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        </article>
-                    </div>
-                </aside>
-            
-            </section>
-
-<!--                               SECTION "ACTIVITES A MARSEILLE"-->
-            <section id="section-activities" class="flex">
-                <div class="title-section">
-                    <h2 class="title">Activités à Marseille</h2>
-                </div>
-                <div id="activities" class=" flex">
-                    <article class=" card-activities flex">
-                        <a href="#">
-                            <div class="card-activities">
-                                <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo d'un port avec des bateaux" class="card-activities">
-                            </div>
-                            <h3 class="card-activities">Vieux-Port</h3>
-                        </a>        
-                    </article>
-
-                    <article class=" card-activities flex">
-                        <a href="#">
-                            <div class="card-activities">
-                                <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="la photo d'un fort en haut de rochers" class="card-activities">
-                            </div>
-                            <h3 class="card-activities">Fort de Pomègues</h3>
-                        </a>
-                    </article>
-                
-                    <article class=" card-activities flex">
-                        <a href="#">
-                            <div class="card-activities">
-                                <img src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo d'une plage avec des rochers dans le brouillard" class="card-activities">
-                            </div>
-                            <h3 class="card-activities">Parc national des Calanques</h3>
-                        </a>
-                    </article>
-
-                    <article class=" card-activities flex">
-                        <a href="#">
-                            <div class="card-activities">
-                                <img src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de notre dame de la garde" class="card-activities">
-                            </div>
-                            <h3 class="card-activities">Notre-Dame-de-la-garde</h3>
-                        </a>
-                    </article>
-                </div>
-            </section>
-        </main>
-<!--                                FOOTER       -->
-
-        <footer >
-            <div id="foot-section" class="flex">
-                
-                <div class="foot-menu flex">
-                    <h3 class="foot-menu">A propos</h3>
-                    <ul class="foot-menu flex">
-                        <li class="foot-menu">
-                            <a class="foot-menu" href="#">
-                                Fonctionnement du site
-                            </a>
-                        </li>
-                        <li class="foot-menu">
-                            <a class="foot-menu" href="#">
-                                Conditions générales
-                            </a>
-                        </li>
-                        <li class="foot-menu">
-                            <a class="foot-menu" href="#">
-                                Données et confidentialités
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="foot-menu flex">
-                    <h3 class="foot-menu">Nos hébergements</h3>
-                    <ul class="foot-menu flex">
-                        <li class="foot-menu">
-                            <a class="foot-menu" href="#">
-                                Charte de qualité
-                            </a>
-                        </li>
-                        <li class="foot-menu">
-                            <a class="foot-menu" href="#">
-                            Proposer votre hôtel
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="foot-menu flex">
-                    <h3 class="foot-menu">Assistance</h3>
-                    <ul class="foot-menu flex">
-                        <li class="foot-menu">
-                            <a class="foot-menu" href="#">
-                                Centre d'aide
-                            </a>
-                        </li>
-                        <li class="foot-menu">
-                            <a class="foot-menu" href="#">
-                                Nous contacter
-                            </a>
-                        </li>
-                    </ul>
+    <main>
+        <section id="flex cover">
+            <div class="flex cover">
+                <div class="flex " id="center-cover">
+                    <img id="cover-logo" src="images/logo_long.png" alt="Logo mon-petit-graphisme">
+                    <h1>Agence de graphisme</h1>
                 </div>
             </div>
-        </footer>
-    </body>
-</html>
+            
+        </section>
 
+        <section class="flex presentation">
+            <h2 class="skills-presentation">Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.</h2>
+            <div class="flex skills-presentation">
+                
+                <article class="flex skill">
+                    <img src="images/graphic-design.png" alt="une icone representant un ordinateur et un stylo" class="skill">
+                    <h3>Graphisme</h3>
+                    <p class="skill">Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
+                </article>
+                <article class="flex skill">
+                    <img src="images/strategie.png" alt="une icone representant un rond une fleche en zig-zag et une croix" class="skill">
+                    <h3>stratégie</h3>
+                    <p class="skill">Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins</p>
+                </article>
+                <article class="flex skill">
+                    <img src="images/illustrations.png" alt="une icone representant une feuille de dessins et un crayon" class="skill">
+                    <h3>Illustrations</h3>
+                    <p class="skill">Nos graphistes vous proposerons des illustrations 100% originales.</p>
+                </article>
+            </div>
+            <blockquote class="skill">
+                <p>"Mon petit graphisme est une excellente agence de graphisme.<br>
+                Les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complètement la carte de mon restaurant."</p>
+                <cite>Amandine, restauratrice</cite>
+            </blockquote>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </main>
+    <footer class="flex">
+        
+            <p>Mon petit graphisme - Agence de graphisme basée à Paris</p>
+            <div class="flex" id="social-net">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
+                <i class="fa-brands fa-instagram fa-lg"></i>
+            </div>
+            <div class="flex footer-menu">
+                <div class="flex footer-nav">
+                    <h3>Accés rapides</h3>
+                    <ul>
+                        <li>Accueil</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="flex footer-nav">
+                <h3>À propos</h3>
+                <ul>
+                    <li>Données personnelles</li>
+                    <li>Mentions légales</li>
+                    <li>Cookies</li>
+                </ul>
+                </div>
+                <div class="flex footer-nav">
+                <h3>Coordonnées</h3>
+                <address >   
+                    10 quai de la Charente <br>
+                    75019 Paris <br>
+                    01 23 45 67 89 
+                </address>
+                
+                </div>
