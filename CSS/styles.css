@@ -1,7 +1,7 @@
 :root{
     --customDarkBlue: #0065fc;
     --customLightBlue: #deebff;
-    --customGrey: #f2f2f2;
+    --customGrey: #d9d9d9;
 }
     
 select * {
@@ -11,7 +11,6 @@ select * {
 
 body{
     font-family: 'raleway', sans-serif;
-    
     max-width: 1400px;
     margin:0 auto;
 }
@@ -29,7 +28,7 @@ h2.title{
     font-size:22px;
     font-weight: 600;
 }
-.page-title{
+#page-title{
     margin-bottom: 0    ;
     justify-content: space-between;
     align-items: center;
@@ -96,8 +95,8 @@ li.navbar-part:hover{
     flex-direction: column;
     width:100%;
 }
-p.page-title {
-    margin:10px 5px 5px 0;
+p#sub-page-title {
+    margin:10px 5px 10px 0;
     font-size:18px;
     font-weight: 100;
 }
@@ -116,7 +115,7 @@ div#search-icon.flex{
     width:40px;
     justify-content:center;
     padding:5px;
-    background-color: #f2f2f2;
+    background-color:var(--customGrey);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -128,8 +127,8 @@ div#search-icon.flex{
 
 #search-input{
     border:none;
-    border-top:2px solid var(--customGrey);
-    border-bottom:2px solid var(--customGrey)
+    border-top:1px solid var(--customGrey);
+    border-bottom:1px solid var(--customGrey)
 }
 #search-input::placeholder{
     color:black;
@@ -186,7 +185,7 @@ li.filter{
     margin:10px 0px 10px 20px;
     padding:5px 10px;
     align-items:center;
-    border:3px solid var(--customGrey);
+    border:2px solid var(--customGrey);
     border-radius:40px;
 }
 .filter:hover{
@@ -333,7 +332,7 @@ div.content-card{
 
 
 #section-activities{
-    padding-left:20px;
+    
     flex-direction:column;
     justify-content: space-between;
 }
@@ -480,11 +479,15 @@ a:visited{
     }
 
     #first-section{
-        padding:20px;
+        padding:20px 20px 20px 20px;
     }
     div#infos-filter,h1.page-title {
         max-width:380px;
+        margin-top:0
     }
+h1#page-title{
+    text-justify: auto;
+}
     #nav-header{
         flex-direction: column;
     }
@@ -498,8 +501,7 @@ a:visited{
     li.navbar-part{
         width:50%;
         border-top: 3px solid white;
-        
-        padding:30px 25px;
+        padding:20px 25px;
     }
     li.navbar-part:hover{
         border-top:3px solid white;
@@ -509,12 +511,17 @@ a:visited{
         flex-direction: column;
         align-items:flex-start;
     }
-    ul.filter-bar{
+    ul#filters{
         flex-wrap: wrap;
-        width:100%
+        width:100%;
+        margin:0;
+        
     }
     li.filter{
-        margin:10px ;
+        justify-content:flex-start;
+        margin:5px ;
+        font-size:12px;
+        width:150px;
     }
     #search-button-desktop{
         display:none;
@@ -596,4 +603,3 @@ a:visited{
         width:100%;
     }
 }
-
