@@ -12,6 +12,7 @@ select * {
 body{
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
+    padding:0 30px;
     margin:0 auto;
 }
 .title-section{
@@ -177,7 +178,6 @@ li.filter{
     justify-content:center;
     padding:10px ;
     margin-left:5px;
-    
 }
 .filter{
     font-size:14px;
@@ -195,7 +195,6 @@ li.filter{
 li.filter p{
     vertical-align:center;
     margin:0 10px;
-    
 }
 /*---------------------Barre d'informations */
 #infos-filter.flex{
@@ -311,7 +310,6 @@ div.card-popularity{
     justify-content: space-around;
     width:100%;
     height:100%;
-    
 }
 img.card-popularity{
     justify-content: center;
@@ -332,7 +330,7 @@ div.content-card{
 
 
 #section-activities{
-    
+    margin:20px 0 0 0;
     flex-direction:column;
     justify-content: space-between;
 }
@@ -340,7 +338,6 @@ div#activities{
     flex-direction: column;
     justify-content:space-between;
     padding:0;
-  
 }
 
 .title-activities{
@@ -359,11 +356,9 @@ article.card-activities{
 div.card-activities{
     width:100%;
     justify-content:space-between;
-    box-sizing:border-box ;
-    
+    box-sizing:border-box ; 
 }
 img.card-activities{
-    
     height:350px;
     width:100%;
     object-fit: cover;
@@ -382,7 +377,6 @@ h3.card-activities{
 a.card-activities{
     flex-direction: column;
     justify-content:space-between;
-    ;
 }
 
 /*-----------------------------------------------FOOTER          */
@@ -390,12 +384,11 @@ a.card-activities{
 div#foot-section{
     background-color: var(--customGrey);
     padding:10px  50px 0;
-    margin:20px 0 0 0;
+    margin:50px 0 0 0;
     flex-direction:row;
     align-items:flex-start;
     justify-content:space-around;
 }
-
 .foot-menu{
     flex-direction:column;
     padding:0;
@@ -411,9 +404,7 @@ a.foot-menu{
 }
 li.foot-menu{
     font-size: 14px;
-    
     padding:5px 0;
-
 }
 article:hover{
     box-shadow: 0px 5px grey;
@@ -469,7 +460,6 @@ a:visited{
         height:58px;
         padding:0 20px 0 0;
     }
-    
 }
 
 /*   Media Téléphone inférieur a 768px */
@@ -477,7 +467,6 @@ a:visited{
     body{
         padding:0;
     }
-
     #first-section{
         padding:20px 20px 20px 20px;
     }
@@ -485,9 +474,9 @@ a:visited{
         max-width:380px;
         margin-top:0
     }
-h1#page-title{
-    text-justify: auto;
-}
+    h1#page-title{
+        text-justify: auto;
+    }
     #nav-header{
         flex-direction: column;
     }
@@ -515,13 +504,16 @@ h1#page-title{
         flex-wrap: wrap;
         width:100%;
         margin:0;
-        
+    }
+    #search-bar{
+        justify-content:center;
     }
     li.filter{
         justify-content:flex-start;
         margin:5px ;
         font-size:12px;
         width:150px;
+        padding:10px 0 10px 10px;
     }
     #search-button-desktop{
         display:none;
@@ -570,7 +562,6 @@ h1#page-title{
         flex-wrap:wrap;
         flex-direction:column;
         justify-content:space-around;
-        
     }
     div.card-activities img{
         height:140px;
