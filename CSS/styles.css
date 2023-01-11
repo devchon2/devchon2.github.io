@@ -546,8 +546,11 @@ a:visited{
     article.card-hosting{
         width:90%
     }
-    #plus{
-        display: none;
+    p#plus ,p#plus a{
+        
+        font-weight:400;
+        padding-bottom:50px;
+        width:100px
     }
     #section-activities{
         padding:0;
@@ -573,9 +576,7 @@ a:visited{
     div.content-card-activities{
         padding-right:0;        
     }
-
-    #title-activities{
-        
+    #title-activities{ 
         font-size:22px;
     }
     h2.title{
@@ -585,7 +586,7 @@ a:visited{
         padding-left:20px;
     }
     .card-activities .title-section{
-    width :100%;
+        width :100%;
     }
     div#foot-section{
         flex-direction: column;
