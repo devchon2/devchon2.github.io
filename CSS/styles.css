@@ -101,7 +101,7 @@ p#sub-page-title {
 }
 /*--------------Barre de recherche"       */
 .fa-solid{
-    margin:10px;
+    margin:0 ;
     color:var(--customDarkBlue);
 }
 #search-bar{
@@ -174,7 +174,7 @@ div.filter-bar h3{
 }
 li.filter{
     justify-content:center;
-    padding:10px;
+    padding:10px 10px;
     margin:5px 30px 5px 0;
 }
 .filter{
@@ -190,7 +190,7 @@ li.filter{
 }
 li.filter p{
     vertical-align:center;
-    margin:0 10px;
+    margin:2px 5px;
 }
 /*---------------------Barre d'informations */
 #infos-filter.flex{
@@ -435,7 +435,8 @@ a:visited{
     }
     div.card-popularity{
         flex-direction: row;
-        width:100%
+        width:100%;
+        margin-top:25px;
     }
     .fa-chart-line{
         margin-right:2.5%
@@ -447,6 +448,7 @@ a:visited{
     }
     #section-activities,.title-activities{
         padding-left:0;
+        
 
     }
     img.card-activities{
@@ -576,11 +578,17 @@ a:visited{
     div.content-card-activities{
         padding-right:0;        
     }
-    #title-activities{ 
+    .title-activities{ 
         font-size:22px;
+        width:30%
+    }
+    #plus{
+        display:none
     }
     h2.title{
-        padding-left: 5px;
+        padding:20px 0 20px 10px;
+        margin:0;
+        
     }
     div.title-section{
         padding-left:20px;
