@@ -510,7 +510,7 @@ a:visited{
     }
     li.filter{
         justify-content:flex-start;
-        margin:5px ;
+        margin:5px 20px 5px 5px;
         font-size:12px;
         width:150px;
         padding:10px 0 10px 10px;
@@ -548,7 +548,7 @@ a:visited{
     }
     p#plus{
         
-        font-weight:400;
+        font-weight:bold;
         padding-bottom:50px;
         width:100px
     }
