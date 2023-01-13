@@ -407,12 +407,11 @@ li.foot-menu{
     padding:5px 0;
 }
 article:hover{
-    box-shadow: 0px 0px 100px 30px grey;
+    box-shadow: 0px 0px 20px 6px grey;
 }
 a:visited{
     text-decoration: none;
 }
-
 
 /*   Media Tablette supérieur ou égal a 768px et inferieur à 992px */
 @media all and (max-width:991px) {
