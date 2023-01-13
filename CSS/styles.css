@@ -537,6 +537,7 @@ a:visited{
     div.card-popularity{
         flex-direction:column;
         padding:0;
+        margin-top:0;
     }
     article.card-popularity{
         width:90%;
@@ -580,18 +581,19 @@ a:visited{
     }
     .title-activities{ 
         font-size:22px;
-        width:30%
+        width:30%;
+        margin-left:5%
     }
     #plus{
         display:none
     }
     h2.title{
-        padding:20px 0 20px 10px;
-        margin:0;
-        
+        padding:0px 0 20px 0;
+        margin-left:5%;       
     }
     div.title-section{
-        padding-left:20px;
+        padding-left:0;
+align-content: center;
     }
     .card-activities .title-section{
         width :100%;
