@@ -51,7 +51,6 @@ ul{
 /*                                                               Header                                  */
 #nav-header{
     justify-content: space-between;
-    height:100px;
 }
 #header-logo{
     width: 100px;
@@ -62,7 +61,7 @@ li.navbar-part:hover a{
 }
 .navbar-part{
     display:flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     padding:25px 30px;
     border-top:3px solid white;
@@ -70,11 +69,13 @@ li.navbar-part:hover a{
 }
 ul#navbar{
     margin: 0;
+    
 }
 li.navbar-part{
+    align-content: center;
     align-self: center;
     box-sizing: border-box;
-    
+    height:100px;
 }
 a.navbar-part{
     padding:0;
