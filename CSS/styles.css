@@ -163,7 +163,7 @@ div.filter-bar{
 }
 ul#filters{
     padding-left: 0;
-    flex-wrap: wrap;
+    flex-wrap:wrap
 }    
 div.filter-bar h3{
     margin-right: 40px;
@@ -174,7 +174,7 @@ div.filter-bar h3{
 }
 li.filter{
     justify-content:center;
-    padding:10px 20px 10px 10px ;
+    padding:10px;
     margin:5px 30px 5px 0;
 }
 .filter{
@@ -263,7 +263,8 @@ i.fa-star{
     margin:0;  
 }
 .fa-chart-line{
-    padding:0 30px;
+    padding:0 0 0 30px;
+    margin-right:5%;
 }
 .stars i:last-child{
     color:#deebff
@@ -420,7 +421,6 @@ a:visited{
     }  
     li.filter{
         margin-right:10px;
-        padding:10px;
     }  
     .title{
         font-size:22px;
@@ -434,6 +434,9 @@ a:visited{
     div.card-popularity{
         flex-direction: row;
         width:100%
+    }
+    .fa-chart-line{
+        margin-right:2.5%
     }
     article.card-popularity{
         width:30%;
@@ -468,10 +471,10 @@ a:visited{
         padding:0;
     }
     #first-section{
-        padding:20px 20px 20px 20px;
+        padding:0px 20px 20px 20px;
     }
     div#infos-filter,h1.page-title {
-        max-width:380px;
+        
         margin-top:0
     }
     h1#page-title{
@@ -505,8 +508,8 @@ a:visited{
         width:100%;
         margin:0;
     }
-    #search-bar{
-        justify-content:center;
+    .fa-chart-line{
+        margin-right:5%
     }
     li.filter{
         justify-content:flex-start;
