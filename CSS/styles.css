@@ -51,7 +51,7 @@ ul{
 /*                                                               Header                                  */
 #nav-header{
     justify-content: space-between;
-    height:150px;
+    height:100px;
 }
 #header-logo{
     width: 100px;
