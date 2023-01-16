@@ -2,6 +2,7 @@
     --customDarkBlue: #0065fc;
     --customLightBlue: #deebff;
     --customGrey: #d9d9d9;
+    --customLightGrey: #f2f2f2;
 }
     
 select * {
@@ -16,6 +17,7 @@ body{
     margin:0 auto;
 }
 .title-section{
+    display:inline-block;
     justify-content: space-between;
     align-items: center;
     padding-left:20px;
@@ -23,6 +25,8 @@ body{
     line-height: 26px;
 }
 h2.title{
+    display:inline-block;
+    align-self:center;
     margin: 25px 0 0 0;
     font-size:22px;
     font-weight: 700;
@@ -114,7 +118,7 @@ div#search-icon.flex{
     width:40px;
     justify-content:center;
     padding:5px;
-    background-color:var(--customGrey);
+    background-color:var(--customLightGrey);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -126,8 +130,11 @@ div#search-icon.flex{
 
 #search-input{
     border:none;
-    border-top:1px solid var(--customGrey);
-    border-bottom:1px solid var(--customGrey)
+    border-top:1px solid var(--customLightGrey);
+    border-bottom:1px solid var(--customLightGrey)
+}
+#search-input:focus{
+    border:1px solid var(--customLightGrey);
 }
 #search-input::placeholder{
     color:black;
@@ -181,7 +188,7 @@ li.filter{
     font-size:14px;
     font-weight:550;
     align-items:center;
-    border:2px solid var(--customGrey);
+    border:1px solid var(--customGrey);
     border-radius:40px;
 }
 .filter:hover{
@@ -216,7 +223,7 @@ div.infos.flex{
 #hosting{
     justify-content:space-between;
     flex-direction:column;
-    background-color: var(--customGrey);
+    background-color: var(--customLightGrey);
     border-radius: 20px;
     width: 66%;
     margin-top:25px;
@@ -286,7 +293,7 @@ i.fa-star{
     flex-direction: column;
     width:32.5%;
     border-radius:20px;
-    background-color: var(--customGrey);
+    background-color: var(--customLightGrey);
     margin-top:25px;
 }
 
@@ -589,11 +596,13 @@ a:visited{
     }
     h2.title{
         padding:0px 0 20px 0;
-        margin-left:5%;       
+        margin-left:5%;  
+        align-self: center;     
     }
-    div.title-section{
+    .title-section div{
+        display:flex;
         padding-left:0;
-align-content: center;
+        align-content: center;
     }
     .card-activities .title-section{
         width :100%;
@@ -605,9 +614,6 @@ align-content: center;
         width:100%;
     }
 }
-
-
-
 
 
 
