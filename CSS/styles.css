@@ -253,9 +253,6 @@ article.card-hosting{
     margin-bottom:20px;
     box-shadow: 0px 1px 10px grey;
 }
-.euro{
-    font-weight: 700;
-}
 img.card-hosting{   
     border-top-left-radius:20px;
     border-top-right-radius:20px;
@@ -623,3 +620,4 @@ a:visited{
         width:10px
     }
 }
+
