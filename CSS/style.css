@@ -261,8 +261,10 @@ div.infos{
 .title-section {
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left:20px;;
     align-content: center;
+}
+.title-section h2{
+    padding-left:20px
 }
 #hosting{                                        /* Section Hebergements*/
     box-sizing: border-box;
@@ -326,7 +328,7 @@ div.infos{
 #activities{
     margin:20px 0 0 0;
 }
-.title-activity{
+#title-activity {
     padding-left:0;
 }
 #card-activities-grp{
@@ -420,9 +422,9 @@ a:visited{
     #hosting{           /* Modification de la section hébergements*/
         width:100%;
     }       
-    .title-section{
-        width:100%;
-        padding-left: 15px;
+    
+    .title-section h2{
+        padding-left:15px;
     }
     #popularity{           /*Modification de la section Populaires */          
         width:100%;
@@ -432,7 +434,7 @@ a:visited{
         width:100%; 
     }
     .fa-chart-line{
-        padding:30px 30px 0 0;
+        padding-right:15px;
         margin-right:0
     }
     .card-popularity{
@@ -545,9 +547,10 @@ a:visited{
         width:90%
     }
     .title-section{
-        box-sizing: border-box;
         width:100%;
-        padding-left: 20px;
+    }
+    .title-section h2{
+        padding-left:20px;
     }
     .card-title{
         font-size:18px;   
@@ -579,10 +582,11 @@ font-weight: 500;
     #activities{
         margin-top:0;
     }
-    .title-activity{
+    #title-activity{
+        width:40%;
         justify-content:flex-start;
         margin-bottom:0;
-        padding-left:2.5%;
+        padding-left:25px;
     }
     
     #card-activities-grp{
