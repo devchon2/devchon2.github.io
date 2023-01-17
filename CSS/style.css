@@ -98,7 +98,7 @@ a.navbar-part{
 /*--------------Barre de recherche"       */
 .fa-solid {
     margin:0 ;
-    padding:10px 0;
+    padding:5px 0 5px 0;
     color:var(--customDarkBlue);
 }
 .icn-filter{
@@ -235,16 +235,17 @@ div.infos{
 }
 .card-content{
     flex-direction:column;
-    padding: 10px;
+    padding:5px  10px 5px 10px;
     justify-content: space-between;
     
 }
-.card-content:nth-child(3){
-    align-items: end;
+.card-content:nth-child(2){
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .content-prgph{
     margin:0 ;
-    font-size:12px
+    font-size:14px
 }
 .euro{
     font-weight:600;
@@ -279,7 +280,8 @@ div.infos{
     margin:0 0;
 }
 #plus{
-    margin:30px 20px;
+    margin:20px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -308,7 +310,7 @@ div.infos{
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 1px 10px grey;  
-    box-sizing: border-box;
+    
 }
 .card-pop-img{
     height: 140px;
@@ -316,7 +318,7 @@ div.infos{
     justify-content: center;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    width:45%;
+    width:40%;
     object-fit:cover
 }
 
@@ -348,14 +350,13 @@ div.infos{
 }
 .card-content-activities{
     justify-items:center;
-    padding:10px 0
 }
 .card-activities-descr{
     height:50px;
     align-items:center;
     font-weight:bolder;
     width:80%;
-    padding:5px 20px;
+    padding:0px 20px;
     margin:0;
     font-size: 16px;
 }
@@ -403,10 +404,11 @@ a:visited{
         flex-direction: column;
     }   
     .card-title{
-        font-size:14px;
+        font-size:18px;
+        
     }
     .card-pop-img{
-        width: 35%
+        width: 35%;
     }
     #hosting{           /* Modification de la section hébergements*/
         width:100%;
@@ -425,18 +427,22 @@ a:visited{
         width:30%;
         justify-content: space-around;
         margin-bottom :30px;
+        margin:10px;
     }
-
+    .card-title{
+        font-size: 16px
+    }
+    .card-title .content-prgph{
+        font-size:12px
+        
+    }
                                 /*modification section activités */
     .card__img--activities{
-        height:240px;
+        height:30vh;
     }
     .card-content-activities{
         padding:0;
-        font-size:16px;
-    }
-    .card-activities-descr{
-        padding:5px 0 5px 20px;
+        
     }
 }
 /*   Media Téléphone inférieur a 768px */
@@ -580,3 +586,9 @@ a:visited{
         font-size: 16px;
     }
 }
+
+
+
+
+
+
