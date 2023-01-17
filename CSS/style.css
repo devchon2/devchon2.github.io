@@ -412,6 +412,11 @@ a:visited{
     .card-content{
         padding-left: 5px;
     }
+    .filter-btn{
+        font-size:12px;
+        justify-content: space-evenly;
+        margin-right:10px;
+    }
     #hosting{           /* Modification de la section hébergements*/
         width:100%;
     }       
