@@ -506,6 +506,7 @@ a:visited{
         justify-content:start;
         width:40%;
         margin:5px;
+        font-size: 12px;
     }
                                 /* Barre d'information */
     #infos-filter{
@@ -543,9 +544,10 @@ a:visited{
     }
     .card-hosting{
         width:90%;
+        margin-bottom:25px;
     }
     .card-content{
-        padding:10px 0 0 10px;;
+        padding:2px 0 0 10px;;
     }
     #plus{
         display:none;
@@ -558,6 +560,7 @@ a:visited{
         justify-content:flex-start;
         margin-bottom:0;
         padding-left:10px;
+        width:60%
     }
     
     #card-activities-grp{
