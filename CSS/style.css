@@ -4,12 +4,6 @@
     --customGrey: #d9d9d9;
     --customLightGrey: #f2f2f2;
 }
-    
-select * {
-    margin:0;
-    padding:0;
-}
-
 body{
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
@@ -620,4 +614,8 @@ font-weight: 500;
     li.foot-menu{
         font-size: 16px;
     }
-}  
+}
+
+
+
+
