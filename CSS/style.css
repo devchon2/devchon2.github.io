@@ -120,7 +120,8 @@ div#search-icon.flex{
 .fa-location-dot{
     align-self: center;
     justify-self: center;
-    color:black
+    color:black;
+    padding:0;
 }
 #search-input{
     border:none;
@@ -645,4 +646,4 @@ font-weight: 500;
 
 
 
-
+
