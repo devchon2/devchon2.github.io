@@ -92,9 +92,15 @@ a.navbar-part{
 /*--------------Barre de recherche"       */
 .fa-solid {
     margin:0 ;
-    padding:5px 0 5px 0;
+    padding:10px 0 10px 10px;
     color:var(--customDarkBlue);
 }
+i.fa-star{
+        margin:0 ;
+        padding:10px 1px;
+        color:var(--customDarkBlue);
+    }
+
 .icn-filter{
     padding:5px;
 }
@@ -202,6 +208,9 @@ div.infos{
     justify-content: center;
     margin-right: 10px;  
 }
+.fa-info{
+    padding-right:10px;
+}
 #infos-filter p{
     font-size:14px;
     font-weight: 500;
@@ -241,7 +250,7 @@ div.infos{
 }
 .content-prgph{
     margin:0 ;
-    font-size:14px
+    font-size:12px
 }
 .euro{
     font-weight:600;
@@ -413,8 +422,8 @@ a:visited{
     .filter-btn{
         font-size:12px;
         justify-content: space-evenly;
-        margin-right:20px;
-        padding: 10px 20px
+        margin-right:10px;
+        padding: 5px 10px 5px 0;
     }
     #hosting{           /* Modification de la section hébergements*/
         width:100%;
@@ -631,8 +640,6 @@ font-weight: 500;
         font-size: 16px;
     }
 }
-
-
 
 
 
