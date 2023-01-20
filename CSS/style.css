@@ -172,7 +172,7 @@ ul#filters{
     border:2px solid var(--customGrey);
     border-radius:40px;
     justify-content:center;
-    padding:10px;
+    padding:5px 10px;
     margin:5px 30px 5px 0;
 }
 .filter-btn:hover{
@@ -195,12 +195,16 @@ div.infos{
     box-sizing: border-box;
     border:2px solid var(--customGrey);
     border-radius:50%;
-    padding:0px 15px;
-    width:40px;
-    height:40px;
+    padding: 7px;
+    width: 25px;
+    height:25px;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 10px;  
+}
+#infos-filter p{
+    font-size:14px;
+    font-weight: 500;
 }
 /*                                                      DEUXIEME SECTION  */
 .card{                          /* Configuration des cartes */
@@ -357,7 +361,7 @@ div.infos{
 /*-----------------------------------------------FOOTER          */
 
 #foot-section{
-    background-color: var(--customGrey);
+    background-color: var(--customLightGrey);
     padding:10px  50px 0;
     margin:50px 0 0 0;
     flex-direction:row;
@@ -409,7 +413,8 @@ a:visited{
     .filter-btn{
         font-size:12px;
         justify-content: space-evenly;
-        margin-right:10px;
+        margin-right:20px;
+        padding: 10px 20px
     }
     #hosting{           /* Modification de la section hébergements*/
         width:100%;
@@ -470,11 +475,11 @@ a:visited{
     }   
     #navbar{
         width:100%;
-        padding-left:0px;
+        padding:0;
     }     
     li.navbar-part{
         width:50%;     
-        padding:50px 25px 25px 0;
+        padding:50px 25px 25px 25px;
         border-bottom:3px solid var(--customLightGrey);
     }
     li.navbar-part:hover{
@@ -483,7 +488,11 @@ a:visited{
     }
                                             /* Section recherche et filtres */
     #page-title{
-        margin-top: 30px;
+        margin: 30px 0px 10px 0;
+        font-size:20px;
+    }
+    #subtitle{
+        font-size:14px;
     }
     #search-section{
         padding:0px 20px 20px 20px;
@@ -515,24 +524,33 @@ a:visited{
     }
     .filter-btn{
         justify-content:start;
-        width:40%;
-        margin:2px;
-        font-size: 12px;
+        width:45%;
+        margin:5px 2px;
+        font-size: 10px;
+        padding:5px 1px;
+    }
+    .filter-btn p{
+        font-weight: 600;
     }
                                 /* Barre d'information */
     #infos-filter{
         width:100%;
         margin:25px 0 0 0;
     }
-    .fa-chart-line{
-        margin:30px 0  0 0;
-        padding:0 20px 0px 0 ;}
+    #infos-filter p{
+        font-weight:500;
+    }
+    
                                 /* Section populaires */
     #popularity{
         order:0;
         flex-direction: column;
         border-radius:0px;
         padding:10px 0;
+    }
+    .fa-chart-line{
+        margin:30px 0  0 0;
+        padding:0 20px 0px 0 ;
     }
     #card-popularity-grp{
         flex-direction: column;  
@@ -613,3 +631,11 @@ font-weight: 500;
         font-size: 16px;
     }
 }
+
+
+
+
+
+
+
+
