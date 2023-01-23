@@ -157,7 +157,8 @@ div#search-icon.flex{
     border-bottom-right-radius: 15px;
 }
 .fa-magnifying-glass{
-    color:white
+    color:white;
+    padding:0;
 }
 /*---------------------Liste de filtres   */
 
